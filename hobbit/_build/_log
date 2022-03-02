@@ -1,0 +1,120 @@
+### Starting build.
+# Target: src/hobbit.ml.depends, tags: { package(z3), extension:ml, file:src/hobbit.ml, ocaml, ocamldep, quiet, thread }
+ocamlfind ocamldep -package z3 -modules src/hobbit.ml > src/hobbit.ml.depends # cached
+# Target: src/ast.ml.depends, tags: { package(z3), extension:ml, file:src/ast.ml, ocaml, ocamldep, quiet, thread }
+ocamlfind ocamldep -package z3 -modules src/ast.ml > src/ast.ml.depends # cached
+# Target: src/type.ml.depends, tags: { package(z3), extension:ml, file:src/type.ml, ocaml, ocamldep, quiet, thread }
+ocamlfind ocamldep -package z3 -modules src/type.ml > src/type.ml.depends # cached
+# Target: src/type.cmo, tags: { package(z3), byte, compile, extension:cmo, extension:ml, file:src/type.cmo, file:src/type.ml, implem, ocaml, quiet, thread }
+ocamlfind ocamlc -c -thread -package z3 -I src -I src/up-to-techniques -I src/parser -o src/type.cmo src/type.ml # cached
+# Target: src/ast.cmo, tags: { package(z3), byte, compile, extension:cmo, extension:ml, file:src/ast.cmo, file:src/ast.ml, implem, ocaml, quiet, thread }
+ocamlfind ocamlc -c -thread -package z3 -I src -I src/up-to-techniques -I src/parser -o src/ast.cmo src/ast.ml # cached
+# Target: src/error.ml.depends, tags: { package(z3), extension:ml, file:src/error.ml, ocaml, ocamldep, quiet, thread }
+ocamlfind ocamldep -package z3 -modules src/error.ml > src/error.ml.depends # cached
+# Target: src/error.cmo, tags: { package(z3), byte, compile, extension:cmo, extension:ml, file:src/error.cmo, file:src/error.ml, implem, ocaml, quiet, thread }
+ocamlfind ocamlc -c -thread -package z3 -I src -I src/up-to-techniques -I src/parser -o src/error.cmo src/error.ml # cached
+# Target: src/parser/lexer.mll, tags: { package(z3), extension:mll, file:src/parser/lexer.mll, lexer, ocaml, ocamllex, quiet, thread }
+/Users/suzukimiyuki/.opam/4.08.1/bin/ocamllex.opt -q src/parser/lexer.mll # cached
+# Target: src/parser/lexer.ml.depends, tags: { package(z3), extension:ml, file:src/parser/lexer.ml, ocaml, ocamldep, quiet, thread }
+ocamlfind ocamldep -package z3 -modules src/parser/lexer.ml > src/parser/lexer.ml.depends # cached
+# Target: src/parser/parser.mly.depends, tags: { package(z3), extension:mly, file:src/parser/parser.mly, infer, menhir_ocamldep, ocaml, ocamldep, quiet, thread }
+menhir --raw-depend --ocamldep 'ocamlfind ocamldep -modules' src/parser/parser.mly > src/parser/parser.mly.depends # cached
+# Target: src/parser/parser.mly, tags: { package(z3), byte, compile, extension:ml, extension:mly, file:src/parser/parser.ml, file:src/parser/parser.mly, infer, menhir, ocaml, parser, quiet, thread }
+menhir --ocamlc 'ocamlfind ocamlc -thread -package z3 -I src/parser -I src -I src/up-to-techniques' --infer src/parser/parser.mly # cached
+# Target: src/parser/parser.mli.depends, tags: { package(z3), extension:mli, file:src/parser/parser.mli, ocaml, ocamldep, quiet, thread }
+ocamlfind ocamldep -package z3 -modules src/parser/parser.mli > src/parser/parser.mli.depends # cached
+# Target: src/parser/parser.cmi, tags: { package(z3), byte, compile, extension:mli, file:src/parser/parser.mli, interf, ocaml, quiet, thread }
+ocamlfind ocamlc -c -thread -package z3 -I src/parser -I src -I src/up-to-techniques -o src/parser/parser.cmi src/parser/parser.mli # cached
+# Target: src/parser/lexer.cmo, tags: { package(z3), byte, compile, extension:cmo, extension:ml, file:src/parser/lexer.cmo, file:src/parser/lexer.ml, implem, ocaml, quiet, thread }
+ocamlfind ocamlc -c -thread -package z3 -I src/parser -I src -I src/up-to-techniques -o src/parser/lexer.cmo src/parser/lexer.ml # cached
+# Target: src/lts.ml.depends, tags: { package(z3), extension:ml, file:src/lts.ml, ocaml, ocamldep, quiet, thread }
+ocamlfind ocamldep -package z3 -modules src/lts.ml > src/lts.ml.depends # cached
+# Target: src/up-to-techniques/generalisations.ml.depends, tags: { package(z3), extension:ml, file:src/up-to-techniques/generalisations.ml, ocaml, ocamldep, quiet, thread }
+ocamlfind ocamldep -package z3 -modules src/up-to-techniques/generalisations.ml > src/up-to-techniques/generalisations.ml.depends # cached
+# Target: src/reductions.ml.depends, tags: { package(z3), extension:ml, file:src/reductions.ml, ocaml, ocamldep, quiet, thread }
+ocamlfind ocamldep -package z3 -modules src/reductions.ml > src/reductions.ml.depends # cached
+# Target: src/reductions_ast.ml.depends, tags: { package(z3), extension:ml, file:src/reductions_ast.ml, ocaml, ocamldep, quiet, thread }
+ocamlfind ocamldep -package z3 -modules src/reductions_ast.ml > src/reductions_ast.ml.depends # cached
+# Target: src/z3api.ml.depends, tags: { package(z3), extension:ml, file:src/z3api.ml, ocaml, ocamldep, quiet, thread }
+ocamlfind ocamldep -package z3 -modules src/z3api.ml > src/z3api.ml.depends # cached
+# Target: src/z3api.cmo, tags: { package(z3), byte, compile, extension:cmo, extension:ml, file:src/z3api.cmo, file:src/z3api.ml, implem, ocaml, quiet, thread }
+ocamlfind ocamlc -c -thread -package z3 -I src -I src/up-to-techniques -I src/parser -o src/z3api.cmo src/z3api.ml # cached
+# Target: src/reductions_ast.cmo, tags: { package(z3), byte, compile, extension:cmo, extension:ml, file:src/reductions_ast.cmo, file:src/reductions_ast.ml, implem, ocaml, quiet, thread }
+ocamlfind ocamlc -c -thread -package z3 -I src -I src/up-to-techniques -I src/parser -o src/reductions_ast.cmo src/reductions_ast.ml # cached
+# Target: src/substitution.ml.depends, tags: { package(z3), extension:ml, file:src/substitution.ml, ocaml, ocamldep, quiet, thread }
+ocamlfind ocamldep -package z3 -modules src/substitution.ml > src/substitution.ml.depends # cached
+# Target: src/substitution.cmo, tags: { package(z3), byte, compile, extension:cmo, extension:ml, file:src/substitution.cmo, file:src/substitution.ml, implem, ocaml, quiet, thread }
+ocamlfind ocamlc -c -thread -package z3 -I src -I src/up-to-techniques -I src/parser -o src/substitution.cmo src/substitution.ml # cached
+# Target: src/up-to-techniques/upto_tools.ml.depends, tags: { package(z3), extension:ml, file:src/up-to-techniques/upto_tools.ml, ocaml, ocamldep, quiet, thread }
+ocamlfind ocamldep -package z3 -modules src/up-to-techniques/upto_tools.ml > src/up-to-techniques/upto_tools.ml.depends # cached
+# Target: src/up-to-techniques/upto_tools.cmo, tags: { package(z3), byte, compile, extension:cmo, extension:ml, file:src/up-to-techniques/upto_tools.cmo, file:src/up-to-techniques/upto_tools.ml, implem, ocaml, quiet, thread }
+ocamlfind ocamlc -c -thread -package z3 -I src/up-to-techniques -I src -I src/parser -o src/up-to-techniques/upto_tools.cmo src/up-to-techniques/upto_tools.ml # cached
+# Target: src/reductions.cmo, tags: { package(z3), byte, compile, extension:cmo, extension:ml, file:src/reductions.cmo, file:src/reductions.ml, implem, ocaml, quiet, thread }
+ocamlfind ocamlc -c -thread -package z3 -I src -I src/up-to-techniques -I src/parser -o src/reductions.cmo src/reductions.ml # cached
+# Target: src/up-to-techniques/generalisations.cmo, tags: { package(z3), byte, compile, extension:cmo, extension:ml, file:src/up-to-techniques/generalisations.cmo, file:src/up-to-techniques/generalisations.ml, implem, ocaml, quiet, thread }
+ocamlfind ocamlc -c -thread -package z3 -I src/up-to-techniques -I src -I src/parser -o src/up-to-techniques/generalisations.cmo src/up-to-techniques/generalisations.ml # cached
+# Target: src/lts_ast.ml.depends, tags: { package(z3), extension:ml, file:src/lts_ast.ml, ocaml, ocamldep, quiet, thread }
+ocamlfind ocamldep -package z3 -modules src/lts_ast.ml > src/lts_ast.ml.depends # cached
+# Target: src/up-to-techniques/normalisation.ml.depends, tags: { package(z3), extension:ml, file:src/up-to-techniques/normalisation.ml, ocaml, ocamldep, quiet, thread }
+ocamlfind ocamldep -package z3 -modules src/up-to-techniques/normalisation.ml > src/up-to-techniques/normalisation.ml.depends # cached
+# Target: src/up-to-techniques/normalisation.cmo, tags: { package(z3), byte, compile, extension:cmo, extension:ml, file:src/up-to-techniques/normalisation.cmo, file:src/up-to-techniques/normalisation.ml, implem, ocaml, quiet, thread }
+ocamlfind ocamlc -c -thread -package z3 -I src/up-to-techniques -I src -I src/parser -o src/up-to-techniques/normalisation.cmo src/up-to-techniques/normalisation.ml # cached
+# Target: src/lts_ast.cmo, tags: { package(z3), byte, compile, extension:cmo, extension:ml, file:src/lts_ast.cmo, file:src/lts_ast.ml, implem, ocaml, quiet, thread }
+ocamlfind ocamlc -c -thread -package z3 -I src -I src/up-to-techniques -I src/parser -o src/lts_ast.cmo src/lts_ast.ml # cached
+# Target: src/memoisation.ml.depends, tags: { package(z3), extension:ml, file:src/memoisation.ml, ocaml, ocamldep, quiet, thread }
+ocamlfind ocamldep -package z3 -modules src/memoisation.ml > src/memoisation.ml.depends # cached
+# Target: src/memoisation.cmo, tags: { package(z3), byte, compile, extension:cmo, extension:ml, file:src/memoisation.cmo, file:src/memoisation.ml, implem, ocaml, quiet, thread }
+ocamlfind ocamlc -c -thread -package z3 -I src -I src/up-to-techniques -I src/parser -o src/memoisation.cmo src/memoisation.ml # cached
+# Target: src/lts.cmo, tags: { package(z3), byte, compile, extension:cmo, extension:ml, file:src/lts.cmo, file:src/lts.ml, implem, ocaml, quiet, thread }
+ocamlfind ocamlc -c -thread -package z3 -I src -I src/up-to-techniques -I src/parser -o src/lts.cmo src/lts.ml # cached
+# Target: src/preprocess.ml.depends, tags: { package(z3), extension:ml, file:src/preprocess.ml, ocaml, ocamldep, quiet, thread }
+ocamlfind ocamldep -package z3 -modules src/preprocess.ml > src/preprocess.ml.depends # cached
+# Target: src/preprocess.cmo, tags: { package(z3), byte, compile, extension:cmo, extension:ml, file:src/preprocess.cmo, file:src/preprocess.ml, implem, ocaml, quiet, thread }
+ocamlfind ocamlc -c -thread -package z3 -I src -I src/up-to-techniques -I src/parser -o src/preprocess.cmo src/preprocess.ml # cached
+# Target: src/typing.ml.depends, tags: { package(z3), extension:ml, file:src/typing.ml, ocaml, ocamldep, quiet, thread }
+ocamlfind ocamldep -package z3 -modules src/typing.ml > src/typing.ml.depends # cached
+# Target: src/typing.cmo, tags: { package(z3), byte, compile, extension:cmo, extension:ml, file:src/typing.cmo, file:src/typing.ml, implem, ocaml, quiet, thread }
+ocamlfind ocamlc -c -thread -package z3 -I src -I src/up-to-techniques -I src/parser -o src/typing.cmo src/typing.ml # cached
+# Target: src/hobbit.cmo, tags: { package(z3), byte, compile, extension:cmo, extension:ml, file:src/hobbit.cmo, file:src/hobbit.ml, implem, ocaml, quiet, thread }
+ocamlfind ocamlc -c -thread -package z3 -I src -I src/up-to-techniques -I src/parser -o src/hobbit.cmo src/hobbit.ml # cached
+# Target: src/type.cmx, tags: { package(z3), compile, extension:cmx, extension:ml, file:src/type.cmx, file:src/type.ml, implem, native, ocaml, quiet, thread }
+ocamlfind ocamlopt -c -thread -package z3 -I src -I src/up-to-techniques -I src/parser -o src/type.cmx src/type.ml # cached
+# Target: src/ast.cmx, tags: { package(z3), compile, extension:cmx, extension:ml, file:src/ast.cmx, file:src/ast.ml, implem, native, ocaml, quiet, thread }
+ocamlfind ocamlopt -c -thread -package z3 -I src -I src/up-to-techniques -I src/parser -o src/ast.cmx src/ast.ml # cached
+# Target: src/error.cmx, tags: { package(z3), compile, extension:cmx, extension:ml, file:src/error.cmx, file:src/error.ml, implem, native, ocaml, quiet, thread }
+ocamlfind ocamlopt -c -thread -package z3 -I src -I src/up-to-techniques -I src/parser -o src/error.cmx src/error.ml # cached
+# Target: src/parser/parser.ml.depends, tags: { package(z3), extension:ml, file:src/parser/parser.ml, ocaml, ocamldep, quiet, thread }
+ocamlfind ocamldep -package z3 -modules src/parser/parser.ml > src/parser/parser.ml.depends # cached
+# Target: src/parser/parser.cmx, tags: { package(z3), compile, extension:cmx, extension:ml, file:src/parser/parser.cmx, file:src/parser/parser.ml, implem, native, ocaml, quiet, thread }
+ocamlfind ocamlopt -c -thread -package z3 -I src/parser -I src -I src/up-to-techniques -o src/parser/parser.cmx src/parser/parser.ml # cached
+# Target: src/parser/lexer.cmx, tags: { package(z3), compile, extension:cmx, extension:ml, file:src/parser/lexer.cmx, file:src/parser/lexer.ml, implem, native, ocaml, quiet, thread }
+ocamlfind ocamlopt -c -thread -package z3 -I src/parser -I src -I src/up-to-techniques -o src/parser/lexer.cmx src/parser/lexer.ml # cached
+# Target: src/z3api.cmx, tags: { package(z3), compile, extension:cmx, extension:ml, file:src/z3api.cmx, file:src/z3api.ml, implem, native, ocaml, quiet, thread }
+ocamlfind ocamlopt -c -thread -package z3 -I src -I src/up-to-techniques -I src/parser -o src/z3api.cmx src/z3api.ml # cached
+# Target: src/reductions_ast.cmx, tags: { package(z3), compile, extension:cmx, extension:ml, file:src/reductions_ast.cmx, file:src/reductions_ast.ml, implem, native, ocaml, quiet, thread }
+ocamlfind ocamlopt -c -thread -package z3 -I src -I src/up-to-techniques -I src/parser -o src/reductions_ast.cmx src/reductions_ast.ml # cached
+# Target: src/substitution.cmx, tags: { package(z3), compile, extension:cmx, extension:ml, file:src/substitution.cmx, file:src/substitution.ml, implem, native, ocaml, quiet, thread }
+ocamlfind ocamlopt -c -thread -package z3 -I src -I src/up-to-techniques -I src/parser -o src/substitution.cmx src/substitution.ml # cached
+# Target: src/up-to-techniques/upto_tools.cmx, tags: { package(z3), compile, extension:cmx, extension:ml, file:src/up-to-techniques/upto_tools.cmx, file:src/up-to-techniques/upto_tools.ml, implem, native, ocaml, quiet, thread }
+ocamlfind ocamlopt -c -thread -package z3 -I src/up-to-techniques -I src -I src/parser -o src/up-to-techniques/upto_tools.cmx src/up-to-techniques/upto_tools.ml # cached
+# Target: src/reductions.cmx, tags: { package(z3), compile, extension:cmx, extension:ml, file:src/reductions.cmx, file:src/reductions.ml, implem, native, ocaml, quiet, thread }
+ocamlfind ocamlopt -c -thread -package z3 -I src -I src/up-to-techniques -I src/parser -o src/reductions.cmx src/reductions.ml # cached
+# Target: src/up-to-techniques/generalisations.cmx, tags: { package(z3), compile, extension:cmx, extension:ml, file:src/up-to-techniques/generalisations.cmx, file:src/up-to-techniques/generalisations.ml, implem, native, ocaml, quiet, thread }
+ocamlfind ocamlopt -c -thread -package z3 -I src/up-to-techniques -I src -I src/parser -o src/up-to-techniques/generalisations.cmx src/up-to-techniques/generalisations.ml # cached
+# Target: src/up-to-techniques/normalisation.cmx, tags: { package(z3), compile, extension:cmx, extension:ml, file:src/up-to-techniques/normalisation.cmx, file:src/up-to-techniques/normalisation.ml, implem, native, ocaml, quiet, thread }
+ocamlfind ocamlopt -c -thread -package z3 -I src/up-to-techniques -I src -I src/parser -o src/up-to-techniques/normalisation.cmx src/up-to-techniques/normalisation.ml # cached
+# Target: src/lts_ast.cmx, tags: { package(z3), compile, extension:cmx, extension:ml, file:src/lts_ast.cmx, file:src/lts_ast.ml, implem, native, ocaml, quiet, thread }
+ocamlfind ocamlopt -c -thread -package z3 -I src -I src/up-to-techniques -I src/parser -o src/lts_ast.cmx src/lts_ast.ml # cached
+# Target: src/memoisation.cmx, tags: { package(z3), compile, extension:cmx, extension:ml, file:src/memoisation.cmx, file:src/memoisation.ml, implem, native, ocaml, quiet, thread }
+ocamlfind ocamlopt -c -thread -package z3 -I src -I src/up-to-techniques -I src/parser -o src/memoisation.cmx src/memoisation.ml # cached
+# Target: src/lts.cmx, tags: { package(z3), compile, extension:cmx, extension:ml, file:src/lts.cmx, file:src/lts.ml, implem, native, ocaml, quiet, thread }
+ocamlfind ocamlopt -c -thread -package z3 -I src -I src/up-to-techniques -I src/parser -o src/lts.cmx src/lts.ml # cached
+# Target: src/preprocess.cmx, tags: { package(z3), compile, extension:cmx, extension:ml, file:src/preprocess.cmx, file:src/preprocess.ml, implem, native, ocaml, quiet, thread }
+ocamlfind ocamlopt -c -thread -package z3 -I src -I src/up-to-techniques -I src/parser -o src/preprocess.cmx src/preprocess.ml # cached
+# Target: src/typing.cmx, tags: { package(z3), compile, extension:cmx, extension:ml, file:src/typing.cmx, file:src/typing.ml, implem, native, ocaml, quiet, thread }
+ocamlfind ocamlopt -c -thread -package z3 -I src -I src/up-to-techniques -I src/parser -o src/typing.cmx src/typing.ml # cached
+# Target: src/hobbit.cmx, tags: { package(z3), compile, extension:cmx, extension:ml, file:src/hobbit.cmx, file:src/hobbit.ml, implem, native, ocaml, quiet, thread }
+ocamlfind ocamlopt -c -thread -package z3 -I src -I src/up-to-techniques -I src/parser -o src/hobbit.cmx src/hobbit.ml # cached
+# Target: src/hobbit.native, tags: { package(z3), dont_link_with, extension:native, file:src/hobbit.native, link, native, ocaml, program, quiet, thread }
+ocamlfind ocamlopt -linkpkg -thread -package z3 -I src -I src/up-to-techniques -I src/parser src/type.cmx src/ast.cmx src/error.cmx src/z3api.cmx src/reductions_ast.cmx src/substitution.cmx src/up-to-techniques/upto_tools.cmx src/reductions.cmx src/up-to-techniques/generalisations.cmx src/up-to-techniques/normalisation.cmx src/lts_ast.cmx src/memoisation.cmx src/lts.cmx src/parser/parser.cmx src/parser/lexer.cmx src/preprocess.cmx src/typing.cmx src/hobbit.cmx -o src/hobbit.native # cached
+# Compilation successful.

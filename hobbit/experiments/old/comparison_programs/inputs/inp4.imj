@@ -1,0 +1,22 @@
+/* 
+  Equivalence adapted from Pitts and Stark's Example 5.6 in
+  "Operational Reasoning for Functions with Local State".
+  The adaptation consists of counting down from maxint rather
+  than counting down (into negative numbers) from 0.
+*/
+
+
+IntRef = { val:int },
+IntFunc = { m:int->int }
+---------------------------------
+
+let c = new {_:IntRef;} in
+let up = new {_:IntFunc; m:\x. (c.val := c.val + x; c.val)} in
+up
+
+  =?=
+
+let c = new {_:IntRef;} in
+c.val := maxint;
+let down = new {_:IntFunc; m:\x. (c.val := c.val - x; maxint - c.val)} in
+down

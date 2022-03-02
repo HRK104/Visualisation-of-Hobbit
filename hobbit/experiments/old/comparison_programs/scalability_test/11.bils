@@ -1,0 +1,12 @@
+
+ref readMAX = 110 in
+let read =
+  (fun () -> readMAX := !readMAX -1;
+            !readMAX > 0)
+in read
+|||
+ref readMAX = 110 in
+let read =
+  (fun () -> readMAX := !readMAX -1;
+            true)
+in read

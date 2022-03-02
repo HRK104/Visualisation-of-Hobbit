@@ -1,0 +1,19 @@
+/* 
+  Inequivalence adapted from inp4.imj.  Here, in the second
+  term, c.val starts from 0 rather than maxint.
+*/
+
+
+IntRef = { val:int },
+IntFunc = { m:int->int }
+---------------------------------
+
+let c = new {_:IntRef;} in
+let up = new {_:IntFunc; m:\x. (c.val := c.val + x; c.val)} in
+up
+
+  =?=
+
+let c = new {_:IntRef;} in
+let down = new {_:IntFunc; m:\x. (c.val := c.val - x; maxint - c.val)} in
+down

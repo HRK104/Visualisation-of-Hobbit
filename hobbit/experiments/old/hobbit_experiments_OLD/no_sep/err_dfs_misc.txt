@@ -1,0 +1,16 @@
+
+[1;31mERROR![0m programs/misc/fst_snd.bils: 1.1-4: Typing Error: Unification error: Difference in length of tuples. Cannot unify (?, ?) with (Int, Int, Int)
+0.004
+0.004
+0.004
+0.025
+0.005
+0.003
+0.003
+0.024
+0.006
+0.004
+
+[1;31mERROR![0m programs/misc/this_should_not_parse.bils: 1.13-14: Parsing Error: Unexpected char: '
+0.003
+0.003

@@ -1,0 +1,5 @@
+fun f -> let (a,b,c) = f () in a
+
+|||_(unit->(int,int,int))->int
+
+fun f -> let (a,b,c) = f () in b

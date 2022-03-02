@@ -1,0 +1,4 @@
+p : (unit -> unit) -> unit |- 
+let x = ref (int%2) 0 in 
+p (fun y . x := 1);
+if !x = 1 then omega else ()

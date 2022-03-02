@@ -1,0 +1,167 @@
+****************
+Debug mode: 
+Input file: programs/misc/fst_snd.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngsrialf
+****************
+
+
+
+****************
+Debug mode: 
+Input file: programs/misc/parse1.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngsrialf
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.The bound was not exceded - the terms are indeed equivalent!
+
+
+
+****************
+Debug mode: 
+Input file: programs/misc/parse-funs.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngsrialf
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/misc/test1.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngsrialf
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.The bound was not exceded - the terms are indeed equivalent!
+
+
+
+****************
+Debug mode: 
+Input file: programs/misc/test2.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngsrialf
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.The bound was not exceded - the terms are indeed equivalent!
+
+
+
+****************
+Debug mode: 
+Input file: programs/misc/test5.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngsrialf
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.The bound was not exceded - the terms are indeed equivalent!
+
+
+
+****************
+Debug mode: 
+Input file: programs/misc/test-let-bug-minimal.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngsrialf
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.The bound was not exceded - the terms are indeed equivalent!
+
+
+
+****************
+Debug mode: 
+Input file: programs/misc/test-staggered-bounds.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngsrialf
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.The bound was not exceded - the terms are indeed equivalent!
+
+
+
+****************
+Debug mode: 
+Input file: programs/misc/test_symbolic_int_2.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngsrialf
+****************
+Bisimulation failed! Failing trace:
+ -pr_ret _idx_1_->-op_call _idx_1_ (ac4: Int)->-[ RHS=bot ]->-pr_ret (w14: Int)->-[ only LHS terminates ]->
+
+
+
+****************
+Debug mode: 
+Input file: programs/misc/test_symbolic_int.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngsrialf
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.The bound was not exceded - the terms are indeed equivalent!
+
+
+
+****************
+Debug mode: 
+Input file: programs/misc/this_should_not_parse.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngsrialf
+****************
+
+
+
+****************
+Debug mode: 
+Input file: programs/misc/type_annote.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngsrialf
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.The bound was not exceded - the terms are indeed equivalent!
+
+
+

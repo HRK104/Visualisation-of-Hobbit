@@ -1,0 +1,1 @@
+p : (unit -> unit) -> unit  |- p (fun y . omega)

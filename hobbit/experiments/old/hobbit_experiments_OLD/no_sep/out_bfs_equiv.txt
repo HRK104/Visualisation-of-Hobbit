@@ -1,0 +1,1132 @@
+****************
+Debug mode: 
+Input file: programs/equiv/arrays.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/bsearch-eq-1.bils
+LTS implementation: immutable list
+Bound: 20
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 20.The bound was not exceded - the terms are indeed equivalent!
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/bsearch-eq-2.bils
+LTS implementation: immutable list
+Bound: 20
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 20.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/bsearch-eq-3.bils
+LTS implementation: immutable list
+Bound: 20
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 20.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/cell-1.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.The bound was not exceded - the terms are indeed equivalent!
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/cell-2.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.The bound was not exceded - the terms are indeed equivalent!
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/cell-3.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/cell-4.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.The bound was not exceded - the terms are indeed equivalent!
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/cell-5.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.The bound was not exceded - the terms are indeed equivalent!
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/fact-tail-rec.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/gc-equiv-2.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.The bound was not exceded - the terms are indeed equivalent!
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/gc-equiv.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.The bound was not exceded - the terms are indeed equivalent!
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/hector-bsort-CN5-sorted.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/hector-bsort-isort-CN100-all-steps.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/hector-bsort-isort-CN10-all-steps.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/hector-bsort-isort-CN10-one-step.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/hector-bsort-isort-CN2-one-step.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/hector-bsort-isort-CN5-one-step.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/hector-isort-CN5.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/hector-pitts-stark.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/hector-scope-extrusion-2-3.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/hector-thamsborg.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/identity-1.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.The bound was not exceded - the terms are indeed equivalent!
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/identity-2.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.The bound was not exceded - the terms are indeed equivalent!
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/list-msort-N100.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/list-qsort-msort-N100.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/list-qsort-N100.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/mccarthy.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/mccarthy-imp.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/mccarthy-knuth2.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/mccarthy-knuth.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/meyer-sieber-1.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/meyer-sieber-fin.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/meyer-sieber-multi-inv.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/meyer-sieber-stack.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/mult2.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/mult.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/nr-equiv-int.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/nr-equiv-no-g-2.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.The bound was not exceded - the terms are indeed equivalent!
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/nr-equiv-no-g.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.The bound was not exceded - the terms are indeed equivalent!
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/nr-equiv-unit.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/pitts-1-2.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.The bound was not exceded - the terms are indeed equivalent!
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/pitts-3.11.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/pitts-3.11v2.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/pitts-3.14.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/qsort-isort-N100.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/reve-ackermann.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/reve-add-horn.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/reve-barthe2.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/reve-barthe.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/reve-inlining.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/reve-limit1unrolled.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/reve-limit2.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/reve-loop5.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/reve-mccarthy.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/reve-nested-while.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/reve-square-twice.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/sigma-gc-equiv.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/state-dependent-1-bad-inv.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+Potential failing trace found:
+ -pr_ret _idx_1_->-op_call _idx_1_ ()->-pr_ret _idx_2_->-op_call _idx_1_ ()->-pr_ret _idx_3_->-op_call _idx_2_ ()->-[ RHS=bot ]->-pr_ret (w38: Bool)->-[ only LHS terminates ]->
+
+However, state generalisations were used so inequivalences may be unsound.
+***Retrying with state generalisations off***
+
+END! Nothing more to explore; no difference was found between the terms with bound = 6.Could not prove the counterexample found with generalisations on is real. Please try again with a bigger bound, or update the generalisation.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/state-dependent-1.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/state-dependent-2.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/state-dependent-3.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+Potential failing trace found:
+ -pr_ret (,_idx_2_,_idx_1_)->-op_call _idx_2_ (af28: Unit->Unit)->-pr_call (af28: Unit->Unit) ()->-op_call _idx_2_ (af28: Unit->Unit)->-pr_ret ()->-op_ret ()->-pr_ret ()->-op_call _idx_1_ ()->-[ RHS=bot ]->-pr_ret (w77: Int)->-[ only LHS terminates ]->
+
+However, state generalisations were used so inequivalences may be unsound.
+***Retrying with state generalisations off***
+
+END! Nothing more to explore; no difference was found between the terms with bound = 6.Could not prove the counterexample found with generalisations on is real. Please try again with a bigger bound, or update the generalisation.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/state-dependent-4.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/state-dependent-4v2.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/stateful-args-eq-2.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/stateful-args-eq.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/symb-const-1.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/symb-const-2.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/symb-const-5.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/symb-const-min.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.The bound was not exceded - the terms are indeed equivalent!
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/syteci-call-lock.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/syteci-fact.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/syteci-fact-state.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/syteci-irrerse-state.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/syteci-rep-ind.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/syteci-well-bracket-state.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/takeuchi-knuth.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/trivial-equiv.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.The bound was not exceded - the terms are indeed equivalent!
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/vk-arrays.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/equiv/vk-Oct9-1520.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngrialfz
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+

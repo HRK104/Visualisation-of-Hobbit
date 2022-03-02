@@ -1,0 +1,211 @@
+****************
+Debug mode: 
+Input file: programs/misc/fst_snd.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngsri
+****************
+
+
+
+****************
+Debug mode: 
+Input file: programs/misc/parse1.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngsri
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.The bound was not exceded - the terms are indeed equivalent!
+
+
+
+****************
+Debug mode: 
+Input file: programs/misc/parse-funs.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngsri
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/misc/test1.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngsri
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.The bound was not exceded - the terms are indeed equivalent!
+
+
+
+****************
+Debug mode: 
+Input file: programs/misc/test2.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngsri
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.The bound was not exceded - the terms are indeed equivalent!
+
+
+
+****************
+Debug mode: 
+Input file: programs/misc/test5.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngsri
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.The bound was not exceded - the terms are indeed equivalent!
+
+
+
+****************
+Debug mode: 
+Input file: programs/misc/test-let-bug-minimal.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngsri
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.The bound was not exceded - the terms are indeed equivalent!
+
+
+
+****************
+Debug mode: 
+Input file: programs/misc/test-staggered-bounds.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngsri
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.The bound was not exceded - the terms are indeed equivalent!
+
+
+
+****************
+Debug mode: 
+Input file: programs/misc/test_symbolic_int_2.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngsri
+****************
+Bisimulation failed! Failing trace:
+ -pr_ret _idx_1_->-op_call _idx_1_ (ac4: Int)->-[ RHS=bot ]->-pr_ret (w14: Int)->-[ only LHS terminates ]->
+
+Symbolic Environment:
+ (w_14 <> w_19) and 
+(w_19 = (/ w_18 ac_4)) and 
+(w_18 = (w_17 + ac_4)) and 
+(w_17 = (w_15 + w_16)) and 
+(w_16 = (-ac_4)) and 
+(w_15 = (-ac_4)) and 
+(w_14 = (w_13 * ac_4)) and 
+(w_13 = (/ w_12 ac_4)) and 
+(w_12 = (w_11 + ac_4)) and 
+(w_11 = (w_9 + w_10)) and 
+(w_10 = (-ac_4)) and 
+(w_9 = (-ac_4))
+
+Satisfying Assignment:
+(define-fun w_14 () Int
+  1)
+(define-fun w_16 () Int
+  1)
+(define-fun w_11 () Int
+  2)
+(define-fun w_13 () Int
+  (- 1))
+(define-fun w_18 () Int
+  1)
+(define-fun w_17 () Int
+  2)
+(define-fun w_10 () Int
+  1)
+(define-fun w_9 () Int
+  1)
+(define-fun w_19 () Int
+  (- 1))
+(define-fun w_12 () Int
+  1)
+(define-fun w_15 () Int
+  1)
+(define-fun ac_4 () Int
+  (- 1))
+(define-fun div0 ((x!0 Int) (x!1 Int)) Int
+  (- 1))
+(define-fun mod0 ((x!0 Int) (x!1 Int)) Int
+  0)
+
+
+
+****************
+Debug mode: 
+Input file: programs/misc/test_symbolic_int.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngsri
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.However the bound was exceded in some plays.
+
+
+
+****************
+Debug mode: 
+Input file: programs/misc/this_should_not_parse.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngsri
+****************
+
+
+
+****************
+Debug mode: 
+Input file: programs/misc/type_annote.bils
+LTS implementation: immutable list
+Bound: 6
+Traversal: BFS
+Max Pending Confs: 1000000
+Memoisation cache size: 10000 
+Up-to techniques: ngsri
+****************
+END! Nothing more to explore; no difference was found between the terms with bound = 6.The bound was not exceded - the terms are indeed equivalent!
+
+
+

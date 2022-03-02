@@ -1,0 +1,1 @@
+|- let c : int ref % 256 = ref 0 in fun f .c := 1; f(); !c
